@@ -1,10 +1,9 @@
 package exercises;
 
-import org.jetbrains.annotations.Contract;
+//import org.jetbrains.annotations.Contract;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class ArrayListPractice {
-    @Contract(pure = true)
     public static int sumEven(ArrayList<Integer> arr) {
         int total = 0;
         for (int integer : arr) {
